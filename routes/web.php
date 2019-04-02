@@ -18,4 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::view('/oauth-dashboard', 'home-oauth')->name('oauth-dashboard');
+
+// Enter this url in browser address-bar
+Route::view('/oauth-dashboard', 'home-oauth')->name('oauth-dashboard')->middleware('auth');
