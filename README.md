@@ -7,6 +7,8 @@
 - User can ask Alexa for pending tasks.
 - User mark task as complete based on number.
 
-
 ##### Config
 - Add correct `APP_URL` in env to access API.
+
+##### Steps
+- 

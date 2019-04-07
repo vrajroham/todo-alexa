@@ -21,3 +21,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // Enter this url in browser address-bar
 Route::view('/oauth-dashboard', 'home-oauth')->name('oauth-dashboard')->middleware('auth');
+
+require 'alexa.php';
