@@ -9,6 +9,3 @@
 
 ##### Config
 - Add correct `APP_URL` in env to access API.
-
-##### Steps
-- 
